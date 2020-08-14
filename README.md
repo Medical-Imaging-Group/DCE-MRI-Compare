@@ -35,7 +35,7 @@ The code has 4 folders:-
 
 This folder also contains a folder name test_datasets which has the testing dataset of Patient B and the 20X, 50X and 100X undersampling masks.
 
- -**TK_modelling**:- This folder has 4 main components:-
+ **TK_modelling**:- This folder has 4 main components:-
 
 1. **recon_NN** :- This folder contains the .h5py file that is reconstructed from MODL and ISTA-Net+ .
 
