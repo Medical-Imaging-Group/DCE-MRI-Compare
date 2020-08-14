@@ -22,12 +22,12 @@ The code has 4 folders:-
   
   - This folder has 4 main files/folder:-
   
-   1. **main.m**  :-  This file executes the code and estimates Ktrans map for undersampling rate of 20X, 50X and 100X.
-   2. **lam_mat.mat** :- This .mat file contains the regularization parameter values of all methods for all undersampling rates.
-   3. **Dataset** :- This folder contains the dataset of patient B.
-   4. **Vol** :-  This folder contains the recontructed Ktrans map of patient B for all undersampling rates (R).
+    1. **main.m**  :-  This file executes the code and estimates Ktrans map for undersampling rate of 20X, 50X and 100X.
+    2. **lam_mat.mat** :- This .mat file contains the regularization parameter values of all methods for all undersampling rates.
+    3. **Dataset** :- This folder contains the dataset of patient B.
+    4. **Vol** :-  This folder contains the recontructed Ktrans map of patient B for all undersampling rates (R).
      
-2.  **Test_NN** :-  This folder contains the DL based models for indirect reconstruction of Ktrans maps. This code contains three folders:-
+2. **Test_NN** :-  This folder contains the DL based models for indirect reconstruction of Ktrans maps. This code contains three folders:-
 
    - **ISTA-Net_plus*** :- This folder contains the weights and testing file of ISTA-Net+[2]  as mentioned in paper :- "ISTA-Net: Interpretable Optimization-            Inspired Deep   Network for Image Compressive Sensing". This folder contains testing model and files for 20X, 50X and 100X undersampling. **The test data          of patient B and           undersampling mask are present in folder of MODL.**  This code is used to estimate high resolution anatomical images from              undersampled K-t space Data
 
