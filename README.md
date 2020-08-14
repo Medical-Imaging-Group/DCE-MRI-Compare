@@ -37,15 +37,15 @@ This folder also contains a folder name test_datasets which has the testing data
 
  **TK_modelling**:- This folder has 4 main components:-
 
-1. **recon_NN** :- This folder contains the .h5py file that is reconstructed from MODL and ISTA-Net+ .
+   1. **recon_NN** :- This folder contains the .h5py file that is reconstructed from MODL and ISTA-Net+ .
 
-2. **vol** :- This folder contains the estimated Ktrans maps using the reconstructed anatomical images of MODL and ISTA-Net+ .
+   2. **vol** :- This folder contains the estimated Ktrans maps using the reconstructed anatomical images of MODL and ISTA-Net+ .
 
-3. **Vol_ISTA_NN_Kt_Vp_SEN_AD_3d.m** :- This file estimates Ktrans map from reconstructed anatomical images  (via ISTA-Net+ ).
+   3. **Vol_ISTA_NN_Kt_Vp_SEN_AD_3d.m** :- This file estimates Ktrans map from reconstructed anatomical images  (via ISTA-Net+ ).
 
-1. **Vol_MODL_NN_Kt_Vp_SEN_AD_3d.m** :- This file estimates Ktrans map from reconstructed anatomical images  (via MODL ).
+   1. **Vol_MODL_NN_Kt_Vp_SEN_AD_3d.m** :- This file estimates Ktrans map from reconstructed anatomical images  (via MODL ).
 
-3. **Generate Results**:- This folder contains code and data to compare the results of direct and indirect estimation techniques. This folder has 3 main files/folders:-
+3.**Generate Results**:- This folder contains code and data to compare the results of direct and indirect estimation techniques. This folder has 3 main files/folders:-
 
 - **compare.m** :- This file compares the reconstructed Ktrans map from direct reconstruction techniques and indirect reconstruction techniques using 4 metrices (PSNR, nRMSE, SSIM and Xydeas metric).
 
