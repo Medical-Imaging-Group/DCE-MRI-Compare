@@ -29,7 +29,7 @@ The code has 4 folders:-
      
 2. **Test_NN** :-  This folder contains the DL based models for indirect reconstruction of Ktrans maps. This code contains three folders:-
 
-   - **ISTA-Net_plus*** :- This folder contains the weights and testing file of ISTA-Net+[2]  as mentioned in paper :- "ISTA-Net: Interpretable Optimization-     Inspired Deep   Network for Image Compressive Sensing". This folder contains testing model and files for 20X, 50X and 100X undersampling. **The test data of patient B and           undersampling mask are present in folder of MODL.**  This code is used to estimate high resolution anatomical images from undersampled K-t space Data
+   - **ISTA-Net_plus*** :- This folder contains the weights and testing file of ISTA-Net+[2]  as mentioned in paper :- "ISTA-Net: Interpretable Optimization-            Inspired Deep   Network for Image Compressive Sensing". This folder contains testing model and files for 20X, 50X and 100X undersampling. **The test data          of patient B and           undersampling mask are present in folder of MODL.**  This code is used to estimate high resolution anatomical images from              undersampled K-t space Data
 
 - **MODL**:- This folder contains the trained models for 20X,50X and 100X undersampling. This code is used to estimate high resolution anatomical images from           undersampled K-t space Data. This method is give by Hemant Kumar Aggarwal in his paper "MoDL: Model Based Deep Learning Architecture for Inverse Problems" and     the   original code of the paper is available at  [https://github.com/hkaggarwal/modl . ](https://github.com/hkaggarwal/modl)
 
