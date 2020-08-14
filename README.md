@@ -17,7 +17,7 @@ The code has 4 folders:-
   - Fully sampled Ktrans (ground truth)
   - Ktrans with zero padding (US)
   - Ktrans with no regularization (L2), TV+L1 regularisation, L1 regularization only and TV regularization only.
-  -This code is based on work done by Yi. Guo1 in this paper "Direct Estimation of Tracer-Kinetic Parameter Maps from Highly Undersampled Brain DCE-MRI" and uses    some codes and libraries from his program available at ["https://github.com/usc-mrel/DCE_direct_recon".](https://github.com/usc-mrel/DCE_direct_recon)
+  - This code is based on work done by Yi. Guo1 in this paper "Direct Estimation of Tracer-Kinetic Parameter Maps from Highly Undersampled Brain DCE-MRI" and uses    some codes and libraries from his program available at ["https://github.com/usc-mrel/DCE_direct_recon".](https://github.com/usc-mrel/DCE_direct_recon)
   -This folder has 4 main files/folder:-
  -1.main.m  :-  This file executes the code and estimates Ktrans map for undersampling rate of 20X, 50X and 100X.
  2.lam_mat.mat :- This .mat file contains the regularization parameter values of all methods for all undersampling rates.
