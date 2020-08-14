@@ -38,7 +38,7 @@ The code has 4 folders:-
 
 - **MODL**:- This folder contains the trained models for 20X,50X and 100X undersampling. This code is used to estimate high resolution anatomical images from           undersampled K-t space Data. This method is give by Hemant Kumar Aggarwal in his paper "MoDL: Model Based Deep Learning Architecture for Inverse Problems" and     the   original code of the paper is available at  [https://github.com/hkaggarwal/modl . ](https://github.com/hkaggarwal/modl)
 
-This folder also contains a folder name test_datasets which has the testing dataset of Patient B and the 20X, 50X and 100X undersampling masks.
+     1.This folder also contains a folder name test_datasets which has the testing dataset of Patient B and the 20X, 50X and 100X undersampling masks.
 
  **TK_modelling**:- This folder has 4 main components:-
 
