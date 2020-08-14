@@ -31,7 +31,7 @@ The code has 4 folders:-
    4. **Vol** :-  This folder contains the recontructed Ktrans map of patient B for all undersampling rates (R).
    
    
- 2. **Test_NN** :-  This folder contains the DL based models for indirect reconstruction of Ktrans maps. This code contains three folders:-
+   2. **Test_NN** :-  This folder contains the DL based models for indirect reconstruction of Ktrans maps. This code contains three folders:-
   
 
    - **ISTA-Net_plus*** :- This folder contains the weights and testing file of ISTA-Net+[2]  as mentioned in paper :- "ISTA-Net: Interpretable Optimization-            Inspired Deep   Network for Image Compressive Sensing". This folder contains testing model and files for 20X, 50X and 100X undersampling. **The test data          of patient B and           undersampling mask are present in folder of MODL.**  This code is used to estimate high resolution anatomical images from              undersampled K-t space Data
@@ -40,7 +40,7 @@ The code has 4 folders:-
 
      1.This folder also contains a folder name test_datasets which has the testing dataset of Patient B and the 20X, 50X and 100X undersampling masks.
 
- **TK_modelling**:- This folder has 4 main components:-
+ - **TK_modelling**:- This folder has 4 main components:-
 
    1. **recon_NN** :- This folder contains the .h5py file that is reconstructed from MODL and ISTA-Net+ .
 
