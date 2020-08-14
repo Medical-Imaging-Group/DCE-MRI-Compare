@@ -24,18 +24,32 @@ The code has 4 folders:-
      3. Dataset :- This folder contains the dataset of patient B.
      4. Vol :-  This folder contains the recontructed Ktrans map of patient B for all undersampling rates (R).
 2.Test_NN :-  This folder contains the DL based models for indirect reconstruction of Ktrans maps. This code contains three folders:-
-ISTA-Net_plus :- This folder contains the weights and testing file of ISTA-Net+[2]  as mentioned in paper :- "ISTA-Net: Interpretable Optimization-Inspired Deep Network for Image Compressive Sensing". This folder contains testing model and files for 20X, 50X and 100X undersampling. The test data of patient B and undersampling mask are present in folder of MODL.  This code is used to estimate high resolution anatomical images from undersampled K-t space Data
-MODL:- This folder contains the trained models for 20X,50X and 100X undersampling. This code is used to estimate high resolution anatomical images from undersampled K-t space Data. This method is give by Hemant Kumar Aggarwal in his paper "MoDL: Model Based Deep Learning Architecture for Inverse Problems" and the original code of the paper is available at  [https://github.com/hkaggarwal/modl . ](https://github.com/hkaggarwal/modl)
+- ISTA-Net_plus :- This folder contains the weights and testing file of ISTA-Net+[2]  as mentioned in paper :- "ISTA-Net: Interpretable Optimization-Inspired Deep Network for Image Compressive Sensing". This folder contains testing model and files for 20X, 50X and 100X undersampling. The test data of patient B and undersampling mask are present in folder of MODL.  This code is used to estimate high resolution anatomical images from undersampled K-t space Data
+
+- MODL:- This folder contains the trained models for 20X,50X and 100X undersampling. This code is used to estimate high resolution anatomical images from undersampled K-t space Data. This method is give by Hemant Kumar Aggarwal in his paper "MoDL: Model Based Deep Learning Architecture for Inverse Problems" and the original code of the paper is available at  [https://github.com/hkaggarwal/modl . ](https://github.com/hkaggarwal/modl)
 This folder also contains a folder name test_datasets which has the testing dataset of Patient B and the 20X, 50X and 100X undersampling masks.
-TK_modelling:- This folder has 4 main components:-
-recon_NN :- This folder contains the .h5py file that is reconstructed from MODL and ISTA-Net+ .
-vol :- This folder contains the estimated Ktrans maps using the reconstructed anatomical images of MODL and ISTA-Net+ .
-Vol_ISTA_NN_Kt_Vp_SEN_AD_3d.m :- This file estimates Ktrans map from reconstructed anatomical images  (via ISTA-Net+ ).
-Vol_MODL_NN_Kt_Vp_SEN_AD_3d.m :- This file estimates Ktrans map from reconstructed anatomical images  (via MODL ).
+
+ -TK_modelling:- This folder has 4 main components:-
+
+1. recon_NN :- This folder contains the .h5py file that is reconstructed from MODL and ISTA-Net+ .
+
+2. vol :- This folder contains the estimated Ktrans maps using the reconstructed anatomical images of MODL and ISTA-Net+ .
+
+3. Vol_ISTA_NN_Kt_Vp_SEN_AD_3d.m :- This file estimates Ktrans map from reconstructed anatomical images  (via ISTA-Net+ ).
+
+     1. Vol_MODL_NN_Kt_Vp_SEN_AD_3d.m :- This file estimates Ktrans map from reconstructed anatomical images  (via MODL ).
+
 Generate Results:- This folder contains code and data to compare the results of direct and indirect estimation techniques. This folder has 3 main files/folders:-
-compare.m :- This file compares the reconstructed Ktrans map from direct reconstruction techniques and indirect reconstruction techniques using 4 metrices (PSNR, nRMSE, SSIM and Xydeas metric).
-Vol_NN :- This folder contains the Ktrans maps reconstructed using indirect DL based techniques for all R.
-Vol :- This folder contains the recontructed Ktrans map of patient B for all undersampling rates (R).
-Make_plots :- This folder plots the barchart of performance of direct and indirect estimation techniques for Patient B. It has a folder:-
-datasets:- This folder contains a .mat file which consists of performance results of the US, L2, TV+L1 in terms of PSNR, nRMSE, SSIM and Xydeas metric.
-barplot.py :- Is the python execution file.
+
+- compare.m :- This file compares the reconstructed Ktrans map from direct reconstruction techniques and indirect reconstruction techniques using 4 metrices (PSNR, nRMSE, SSIM and Xydeas metric).
+
+- Vol_NN :- This folder contains the Ktrans maps reconstructed using indirect DL based techniques for all R.
+
+- Vol :- This folder contains the recontructed Ktrans map of patient B for all undersampling rates (R).
+
+4. Make_plots :- This folder plots the barchart of performance of direct and indirect estimation techniques for Patient B. It has a folder:-
+
+- datasets:- This folder contains a .mat file which consists of performance results of the US, L2, TV+L1 in terms of PSNR, nRMSE, SSIM and Xydeas metric.
+
+- barplot.py :- Is the python execution file.
+
