@@ -17,13 +17,13 @@ The code has 4 folders:-
   - Fully sampled Ktrans (ground truth)
   - Ktrans with zero padding (US)
   - Ktrans with no regularization (L2), TV+L1 regularisation, L1 regularization only and TV regularization only.
-This code is based on work done by Yi. Guo1 in this paper "Direct Estimation of Tracer-Kinetic Parameter Maps from Highly Undersampled Brain DCE-MRI" and uses some codes and libraries from his program available at ["https://github.com/usc-mrel/DCE_direct_recon".](https://github.com/usc-mrel/DCE_direct_recon)
-This folder has 4 main files/folder:-
-main.m  :-  This file executes the code and estimates Ktrans map for undersampling rate of 20X, 50X and 100X.
- lam_mat.mat :- This .mat file contains the regularization parameter values of all methods for all undersampling rates.
- Dataset :- This folder contains the dataset of patient B.
- Vol :-  This folder contains the recontructed Ktrans map of patient B for all undersampling rates (R).
-Test_NN :-  This folder contains the DL based models for indirect reconstruction of Ktrans maps. This code contains three folders:-
+  -This code is based on work done by Yi. Guo1 in this paper "Direct Estimation of Tracer-Kinetic Parameter Maps from Highly Undersampled Brain DCE-MRI" and uses    some codes and libraries from his program available at ["https://github.com/usc-mrel/DCE_direct_recon".](https://github.com/usc-mrel/DCE_direct_recon)
+  -This folder has 4 main files/folder:-
+ 1.main.m  :-  This file executes the code and estimates Ktrans map for undersampling rate of 20X, 50X and 100X.
+ 2.lam_mat.mat :- This .mat file contains the regularization parameter values of all methods for all undersampling rates.
+ 3.Dataset :- This folder contains the dataset of patient B.
+ 4.Vol :-  This folder contains the recontructed Ktrans map of patient B for all undersampling rates (R).
+2.Test_NN :-  This folder contains the DL based models for indirect reconstruction of Ktrans maps. This code contains three folders:-
 ISTA-Net_plus :- This folder contains the weights and testing file of ISTA-Net+[2]  as mentioned in paper :- "ISTA-Net: Interpretable Optimization-Inspired Deep Network for Image Compressive Sensing". This folder contains testing model and files for 20X, 50X and 100X undersampling. The test data of patient B and undersampling mask are present in folder of MODL.  This code is used to estimate high resolution anatomical images from undersampled K-t space Data
 MODL:- This folder contains the trained models for 20X,50X and 100X undersampling. This code is used to estimate high resolution anatomical images from undersampled K-t space Data. This method is give by Hemant Kumar Aggarwal in his paper "MoDL: Model Based Deep Learning Architecture for Inverse Problems" and the original code of the paper is available at  [https://github.com/hkaggarwal/modl . ](https://github.com/hkaggarwal/modl)
 This folder also contains a folder name test_datasets which has the testing dataset of Patient B and the 20X, 50X and 100X undersampling masks.
