@@ -13,10 +13,10 @@ Please mail me at adityar[at]iisc[dot]ac[dot]in if you encounter any problem in 
 
 The code has 4 folders:-
 
- Test_Direct :- Constructs the Ktrans map using iterative direct reconstruction techniques.This generates the following
-Fully sampled Ktrans (ground truth)
-Ktrans with zero padding (US)
-Ktrans with no regularization (L2), TV+L1 regularisation, L1 regularization only and TV regularization only.
+1. Test_Direct :- Constructs the Ktrans map using iterative direct reconstruction techniques.This generates the following
+  - Fully sampled Ktrans (ground truth)
+  - Ktrans with zero padding (US)
+  - Ktrans with no regularization (L2), TV+L1 regularisation, L1 regularization only and TV regularization only.
 This code is based on work done by Yi. Guo1 in this paper "Direct Estimation of Tracer-Kinetic Parameter Maps from Highly Undersampled Brain DCE-MRI" and uses some codes and libraries from his program available at ["https://github.com/usc-mrel/DCE_direct_recon".](https://github.com/usc-mrel/DCE_direct_recon)
 This folder has 4 main files/folder:-
 main.m  :-  This file executes the code and estimates Ktrans map for undersampling rate of 20X, 50X and 100X.
