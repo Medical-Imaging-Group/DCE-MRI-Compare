@@ -5,7 +5,7 @@ Aditya Rastogi and Phaneendra K. Yalavarthy, “Comparison of iterative parametr
 
 
 
-Due to the size of the code, testing data (Patient B) and trained model weights the code is uploaded on Google Drive. The link to the code is attached below:-
+Due to the size of the code, testing data (Patient B) and trained model weights the code is uploaded on Google Drive. **The link to the code is attached below**:-
 
 [https://drive.google.com/drive/folders/12Byg-207xGgg6Sq13eYl2l-VGejXD7SV?usp=sharing](https://drive.google.com/drive/folders/12Byg-207xGgg6Sq13eYl2l-VGejXD7SV)
 
