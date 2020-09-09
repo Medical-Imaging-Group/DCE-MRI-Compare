@@ -1,6 +1,8 @@
 # Comparison of iterative parametric and indirect deep learning based reconstruction methods in highly
 **These Matlab & Python codes are used as part of the work presented in:**
 
+This article is accepted for publication in **Medical Physics** journal 
+
 <b>Aditya Rastogi and Phaneendra K. Yalavarthy, “Comparison of iterative parametric and indirect deep learning-based reconstruction methods in highly undersampled DCE‐MR Imaging of the breast," Medical Physics, (2020), [https://doi.org/10.1002/mp.14447](https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14447)</b>
 
 
