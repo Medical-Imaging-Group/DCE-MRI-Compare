@@ -17,7 +17,7 @@ Please mail me at **adityar[at]iisc[dot]ac[dot]in** if you encounter any problem
 
 The forward and inverse modelling of Tracer Kinetic parameter estimation problem is shown below:
 <p align="center">
-  <img src="images/Fig1.jpg" width="1000px" alt=""> 
+  <img src="images/Fig1.jpeg" width="1000px" alt=""> 
 </p>
 
 ## Codes
@@ -73,3 +73,9 @@ The code has 4 folders:-
 
 - **barplot.py** :- Is the python execution file.
 
+
+## Results
+
+<p align="center">
+  <img src="images/Fig7.jpeg" width="1000px" alt=""> 
+</p>
