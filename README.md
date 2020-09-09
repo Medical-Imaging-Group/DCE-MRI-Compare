@@ -76,6 +76,7 @@ The code has 4 folders:-
 
 ## Results
 
+We estimated the Ktrans Maps from 20X, 50X and 100X undersampled DCE-MRI data using golden radial angle undersampling pattern. The result for **PAT B** for all reconstruction methods methods mentioned above is shown below:
 <p align="center">
   <img src="images/Fig7.jpeg" width="1000px" alt=""> 
 </p>
